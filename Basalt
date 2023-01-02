@@ -1,0 +1,4 @@
+local filepath = "basalt.lua"
+if not(fs.exists(filePath))then
+  shell.run("wget run https://basalt.madefor.cc/install.lua")
+end
